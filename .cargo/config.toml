@@ -1,0 +1,5 @@
+[build]
+rustdocflags = [ "--html-in-header", "./src/katex-doc-header.html" ]
+
+[package.metadata.docs.rs]
+rustdoc-args = [ "--html-in-header", "./src/katex-doc-header.html" ]

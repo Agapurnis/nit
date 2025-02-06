@@ -1,0 +1,19 @@
+[package]
+name = "nit"
+version = "0.0.1"
+edition = "2021"
+description = "A simple library for packing non-integer unit values into binary integers."
+license = "MIT"
+repository = "TODO" # TODO!
+readme = "README.md"
+keywords = ["packing", "trit", "binary"]
+categories = ["algorithms", "data-structures", "math"]
+
+[features]
+nightly = []
+error-in-core = []
+std = []
+alloc = []
+
+[dev-dependencies]
+no-panic = "0.1.29"

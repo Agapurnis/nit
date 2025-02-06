@@ -1,0 +1,11 @@
+[package]
+name = "nit_proc_macros"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macros = true
+
+[dependencies]
+nit = { path = "../../" }
+
